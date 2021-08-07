@@ -993,7 +993,7 @@ ul#menu-primary li a {
 	color: #fff;
 	padding: 15px;
 }
-.contact-form .sent-btn input {
+.contact-form .sent-btn input, .contact-form .sent-btn button {
 	display: block;
 	width: 100%;
 	height: 55px;
