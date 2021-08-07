@@ -28,6 +28,16 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
 		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-354Y4WVQG2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-354Y4WVQG2');
+	</script>
+
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-all.css" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/zoomslider.css">
@@ -620,7 +630,7 @@
 									a message</h2>
 								<div data-wow-delay="0.5s" class="contact-form wow zoomIn">
 
-									<form method="post" action="/">
+									<form method="POST" action="https://formsubmit.co/mystarswill@gmail.com">
 										<div class="f-field"><input type="text" name="name" placeholder="Name" required>
 										</div>
 										<div class="f-field"><input type="email" name="emailId" placeholder="Email-id"
@@ -630,6 +640,9 @@
 												required></div>
 										<div class="f-field"><textarea name="msg" placeholder="Message"></textarea>
 										</div>
+										<input type="hidden" name="_subject" value="Enquiry Mail from Starswill">
+										<input type="hidden" name="_next" value="https://starswill.com/thankyou.html">
+										<input type="hidden" name="_captcha" value="false">
 										<div class="sent-btn"><input name="submit" type="submit" value="Submit"></div>
 									</form>
 								</div>
