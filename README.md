@@ -1,1 +1,1 @@
-This is for astrology info website
+This is astrology info website
