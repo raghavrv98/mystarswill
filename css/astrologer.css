@@ -4,7 +4,7 @@ background: -ms-linear-gradient(top, rgba(30,17,60,1) 0%, rgba(127,27,158,1) 100
 
 .spinner{background-color:#fec007;}
 
-.logo-icon{width:105px;}
+.logo-icon{width:210px; height: 105px;}
 .desktop-menu-btn{background-color:#fec007;}
 .desktop-menu-btn:hover{background-color:#fff; color:#ffa200;}
 .mobile-menu-btn{background-color:#fec007;}
